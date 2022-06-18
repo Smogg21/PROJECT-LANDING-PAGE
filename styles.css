@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 .header,
 .content-one,
@@ -15,13 +16,16 @@ body{
     justify-content: start;
     flex: 1;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 22px;
     font-family: "Hero";
     margin-left: 80px;
     padding: 16px;
-
-
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
+
+
+
 .header .right-side{
     display: flex;
     justify-content: end;
@@ -46,16 +50,82 @@ body{
 .content-one .left-side h1{
     font-size: 48px;
     color: white;
+    margin-left: 100px;
+    margin-bottom: 0px;
 }
 .content-one .left-side p{
     font-size: 18px;
     color: #E5E7EB;
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
 }
 .content-one .left-side button{
     background-color: #3882f6;
     color: white;
+    margin-left: 100px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
 }
 .footer{
     color: #E5E7EB;
     text-align: center;
+}
+.content-one .right-side img{
+    width: 65%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.content-two{
+    display: flex;
+    flex-direction: column;
+}
+.content-two h2{
+    text-justify: center;
+    text-align: center;   
+}
+.content-two .ilustrations{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.content-two .ilustrations div{
+    width: 150px;
+   
+}
+.content-two .ilustrations img{
+    width: 100%;
+}
+.content-two .ilustrations p{
+    margin-top: 0px;
+}
+.content-three{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+.content-three .quote{
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    align-self: center;
+    height: 30%;
+    width: 70%;
+    margin-bottom: 0;
+    margin-top: 100px;
+   
+}
+.content-three .who{
+    font-weight: bold;
+    margin-top: 0;
+    width: 50%;
+    align-self: flex-end;
+    margin-bottom: 100px;
 }
